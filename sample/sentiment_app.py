@@ -21,7 +21,7 @@ def print_result(annotations):
     )
     return 0
 
-# 3. 夸没 积己
+# 3. 夸没 积己 
 def analyze(movie_review_filename):
     """Run a sentiment analysis request on text within a passed filename."""
     client = language_v1.LanguageServiceClient()

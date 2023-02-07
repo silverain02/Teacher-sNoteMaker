@@ -79,4 +79,4 @@ def sample_analyze_syntax(text_content):
 
 # function test
 sample_analyze_syntax("She loved to drink coffee")
-sample_analyze_syntax("She might think it is wrong for him to have broken the window yesterday")
+ 
