@@ -13,7 +13,7 @@ document = language_v1.Document(
 # Detects the sentiment of the text
 sentiment = client.analyze_sentiment(
     request={"document": document}
-).document_sentiment
+).document_sentiment  
 
 print("Text: {}".format(text))
 print("Sentiment: {}, {}".format(sentiment.score, sentiment.magnitude))
