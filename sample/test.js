@@ -30,7 +30,7 @@ async function analyzeSentiment() {
   const client = new language.LanguageServiceClient();
 
   // The text to analyze
-  const text = "Grapes are good";
+  const text = "Grapes are good.";
 
   // Prepares a document, representing the provided text
   const document = {
@@ -81,6 +81,4 @@ async function analyzeSyntax() {
 
 
 //call function
-quickstart()
 analyzeSentiment()
-analyzeSyntax()
